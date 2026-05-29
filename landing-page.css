@@ -694,7 +694,7 @@ nav {
     padding-left: 16px;
     padding-right: 16px;
     gap: 24px;
-    position: absolute;
+    position: relative;
     left: 224px;
     margin-top: 40px;
 }
@@ -886,4 +886,89 @@ nav {
     vertical-align: middle;
     display: inline-block;
     text-decoration: line-through;
+}
+
+.section-iklan {
+    width: 1248px;
+    height: 176px;
+    left: 240px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.fashion-sale {
+    width: 616px;
+    height: 176px;
+    border: none;
+    border-radius: 12px;
+    display: inline-block;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), 
+                url("assets/Fashion\ sale.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.electronic-sale {
+    width: 616px;
+    height: 176px;
+    border: none;
+    border-radius: 12px;
+    display: inline-block;
+    background: linear-gradient(to right, rgba(28, 57, 142, 0.8), rgba(28, 57, 142, 0)), 
+                url("assets/Electronics\ sale.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.fashion-sale-description {
+    width: 152px;
+    height: 86px;
+    position: absolute;
+    display: inline-block;
+    top: 40px;
+    left: 28px;
+}
+
+.head-iklan {
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.middle-iklan {
+    height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    vertical-align: middle;
+    margin-top: 3px;
+}
+
+.button-iklan {
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    vertical-align: middle;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background: transparent;
+    margin-top: 10px;
 }
