@@ -1030,3 +1030,86 @@ nav {
     left: 224px;
     margin-top: 40px;
 }
+
+.last-section {
+    width: 1248px;
+    height: 243px;
+    position: relative;
+    left: 240px;
+    background-color: #FFFFFF;
+    border: 1px solid #0000001A;
+    border-radius: 16px;
+    padding: 32px;
+    gap: 32px;
+    margin-top: 60px;
+}
+
+.head-last-section {
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #111827;
+    display: block;
+    text-align: center;
+}
+
+.list-why-container {
+    height: 115px;
+    display: block;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.reason-container-1 {
+    display: inline-block;
+    width: 277.5px;
+    height: 115px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.reason-container {
+    display: inline-block;
+    width: 277.5px;
+    height: 115px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 22px;
+}
+
+.logo-reason {
+    height: 40px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+
+.point-reason {
+    height: 20px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #111827;
+    margin-top: 3px;
+}
+
+.description-reason {
+    height: 39px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19.5px;
+    letter-spacing: 0%;
+    color: #6B7280;
+    margin-top: 5px;
+}
