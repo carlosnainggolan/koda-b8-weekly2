@@ -319,7 +319,7 @@ p {
 }
 
 nav {
-    width: 100%;
+    width: 1728px;
     height: 40px;
     border-top: 1px solid #0000001A;
     text-align: center;
@@ -397,4 +397,292 @@ nav {
 .electronic-text-container {
     display: inline-block;
     margin-left: 3px;
+}
+
+.main {
+    width: 1728px;
+    height: 3659.25px;
+    top: 134px;
+    padding-bottom: 48px;
+    gap: 48px;
+}
+
+.purple-section {
+    width: 1728px;
+    height: 420px;
+    padding-left: 224px;
+    padding-right: 224px;
+    height: 420px;
+    background: linear-gradient(to right, #4F39F6 864px, #8200DB 864px);
+    position: relative;
+}
+
+.pilihan-img {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    width: 864px;
+    opacity: 60%;
+}
+
+.all-item-container {
+    width: 1280px;
+    height: 420px;
+    max-width: 1280px;
+    padding-right: 16px;
+    padding-left: 16px;
+    position: absolute;
+    left: 224px;
+}
+
+.section-item-container {
+    width: 512px;
+    height: 239px;
+    max-width: 512px;
+    max-height: 512px;
+    gap: 16px;
+    position: absolute;
+    top: 90px;
+}
+
+.section-title {
+    width: 475px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: bold;
+    line-height: 20px;
+    letter-spacing: 0;
+    vertical-align: middle;
+    line-height: 50px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.title-description {
+    width: 476px;
+    height: 59px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.25px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFFCC;
+}
+
+.button {
+    width: 163px;
+    height: 48px;
+    border: none;
+    border-radius: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    gap: 8px;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.lihat-promo {
+    width: 91px;
+    height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #1A73E8;
+}
+
+.arrow-right {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.bottom-slide {
+    width: 56px;
+    height: 8px;
+    gap: 8px;
+    position: absolute;
+    bottom: 20px;
+    left: 840px;
+}
+
+.left-button {
+    background-color: #FFFFFF80;
+    width: 8px;
+    height: 8px;
+    border: none;
+    border-radius: 16777200px;
+}
+
+.middle-button {
+    background-color: #FFFFFF80;
+    width: 24px;
+    height: 8px;
+    border: none;
+    border-radius: 16777200px;
+}
+
+.right-button {
+    background-color: #FFFFFF80;
+    width: 8px;
+    height: 8px;
+    border: none;
+    border-radius: 16777200px;
+}
+
+.round-left-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 16777200px;
+    border: none;
+    background-color: #FFFFFF33;
+    position: absolute;
+    top: 190px;
+    left: 15px;
+}
+
+.round-arrow-left {
+    vertical-align: middle;
+}
+
+.round-right-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 16777200px;
+    border: none;
+    background-color: #FFFFFF33;
+    position: absolute;
+    top: 190px;
+    right: 15px;
+}
+
+.round-arrow-right {
+    vertical-align: middle;
+}
+
+.shop-category-section {
+    width: 1280px;
+    height: 192px;
+    max-width: 1280px;
+    padding-left: 12px;
+    padding-right: 12px;
+    gap: 24px;
+    position: absolute;
+    left: 224px;
+    margin-top: 40px;
+}
+
+.head-category-container {
+    width: 1248px;
+    height: 30px;
+}
+
+.belanja-berdasarkan {
+    width: 282px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #111827;
+    font-weight: bold;
+}
+
+.lihat-semua {
+    width: 100px;
+    height: 20px;
+    gap: 4px;
+    position: absolute;
+    right: 12px;
+    text-decoration: 0;
+}
+
+.lihat-semua-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #1A73E8;
+}
+
+.right-arrow-category {
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+}
+
+.category-selection {
+    width: 1248px;
+    height: 138px;
+    margin-top: 20px;
+}
+
+.electronic-category {
+    width: 198px;
+    height: 138px;
+    border-radius: 12px;
+    border: solid 1px #0000001A;
+    padding: 16px;
+    gap: 8px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 8px;
+}
+
+.electronic-category-1 {
+    width: 198px;
+    height: 138px;
+    border-radius: 12px;
+    border: solid 1px #0000001A;
+    padding: 16px;
+    gap: 8px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.electronic-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto 12px;
+}
+
+.elctronic-text {
+    width: 56px;
+    height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #111827;
+}
+
+.electronic-product {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #6B7280;
 }
