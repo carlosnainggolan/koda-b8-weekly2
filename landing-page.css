@@ -1113,3 +1113,84 @@ nav {
     color: #6B7280;
     margin-top: 5px;
 }
+
+footer {
+    width: 1728px;
+    height: 492px;
+    background-color: #111827;
+    margin-top: 150px;
+}
+
+.footer-header {
+    background: transparent;
+    height: 105px;
+    border-bottom: 1px solid #364153;
+    padding-right: 224px;
+    padding-left: 224px;
+    position: relative;
+}
+
+.list-footer-header {
+    width: 1280px;
+    height: 104px;
+    max-width: 1280px;
+    vertical-align: middle;
+}
+
+.item-footer-header {
+    width: 294px;
+    min-height: 40px;
+    margin-left: 16px;
+    display: inline-block;
+    position: relative;
+    top: 32px;
+}
+
+.image-round {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%; 
+    background-color: #1A73E833;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    position: relative; 
+}
+
+.logo-char {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 18px;
+}
+
+.description-footer-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title-description-footer {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    height: 20px;
+}
+
+.description-description-footer {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #99A1AF;
+    height: 16px;
+    vertical-align: middle;
+}
