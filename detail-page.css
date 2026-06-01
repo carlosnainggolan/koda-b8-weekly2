@@ -1503,3 +1503,19 @@ footer {
     display: inline-block;
     margin-left: 12px;
 }
+
+.chat-bot {
+    width: 56px;
+    height: 56px;
+    position: fixed;
+    top: 737px;
+    left: 1648px;
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 50%;
+}
+
+.chat-img {
+    width: 24px;
+    height: 24px;
+}
