@@ -765,7 +765,7 @@ footer {
     width: 1728px;
     height: 492px;
     background-color: #111827;
-    margin-top: px;
+    margin-top: 60px;
 }
 
 .footer-header {
@@ -1093,4 +1093,47 @@ footer {
 .chat-img {
     width: 24px;
     height: 24px;
+}
+
+.metode-pembayaran-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    width: 100%;
+}
+
+.metode-pembayaran-container div {
+    padding: 18px 12px;
+    border: 2px solid #0000001A;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #111827;
+    width: 100%;
+}
+
+.div4, .div5, .div6 {
+    grid-row-start: 2;
+}
+
+.informasi-pembayaran {
+    border: 1px solid #DBEAFE;
+    background-color: #EFF6FF;
+    padding: 18px 12px;
+    width: 100%;
+    color: #6B7280;
+    font-size: 12px;
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    border-radius: 12px;
+    gap: 8px;
+}
+
+.bottom-info {
+    display: flex;
+    gap: 12px;
 }
