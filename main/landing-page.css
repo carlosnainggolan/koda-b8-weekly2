@@ -926,7 +926,7 @@ nav {
     border-radius: 12px;
     display: inline-block;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), 
-                url("assets/Fashion\ sale.png");
+                url("../assets/Fashion\ sale.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -939,7 +939,7 @@ nav {
     border-radius: 12px;
     display: inline-block;
     background: linear-gradient(to right, rgba(28, 57, 142, 0.8), rgba(28, 57, 142, 0)), 
-                url("assets/Electronics\ sale.png");
+                url("../assets/Electronics\ sale.png");
     background-size: cover;
     background-position: center;
     position: relative;

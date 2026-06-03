@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F9FA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.auth-login-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container {
+    width: 50%;
+    background-image:
+            linear-gradient(rgba(26, 115, 232, 0.7), rgba(25, 60, 184, 0.7)),
+            url('assets/shop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px;
+    min-height: 817px;
+}
+
+.logo-b {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #1a73e816;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.top-auth-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.middle-auth-login {
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.rating-auth {
+    display: flex;
+    gap: 20px;
+    vertical-align: top;
+    align-items: center;
+}
+
+.rating-auth-desc {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bottom-authlogin {
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF66;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 50%;
+}
+
+.login-control {
+    max-width: 448px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.login-button {
+    width: 47%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6B7280;
+    border: 1px solid #0000001A;
+    border-radius: 12px;
+    padding: 12px 73.11px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    color: #6B7280;
+    font-size: 14px;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.divider::before {
+    margin-right: 16px;
+}
+
+.divider::after {
+    margin-left: 16px;
+}
+
+.login-form {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+form label {
+    color: #111827;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input-email {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #0000001A;
+    border-radius: 12px;
+    background-color: #F3F4F6;
+    color: #6B7280;
+}
+
+.masuk-button {
+    background-color: #1A73E8;
+    width: 100%;
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
