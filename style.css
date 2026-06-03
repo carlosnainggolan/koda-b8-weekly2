@@ -245,3 +245,852 @@ form label {
     flex-direction: column;
     gap: 6px;
 }
+
+header {
+    background-color: #FFFFFF;
+    border-bottom: solid;
+    border-color: #0000001A;
+    border-bottom-width: 1px;
+}
+
+.bg-class-info {
+    width: 1728px;
+    height: 28px;
+    background-color: #1A73E8;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 224px;
+    padding-right: 224px;
+}
+
+.contact-info {
+    max-width: 1280px;
+    width: 1280px;
+    height: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.city {
+    width: 156px;
+    height: 16px;
+    position: absolute;
+    padding: 0;
+    left: 0;
+    gap: 6px;
+    align-items: center;
+    padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.city-text {
+    width: 141px;
+    height: 16px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.city-text-p {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0;
+}
+
+.map-icon {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+}
+
+.more-info {
+    width: 373.010009765625px;
+    height: 16px;
+    gap: 16.01px;
+    right: 0;
+    display: inline-block;
+    position: absolute;
+}
+
+.contact {
+    width: 160px;
+    height: 16px;
+    font: arial;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    vertical-align: middle;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.free {
+    display: inline-block;
+    width: 197px;
+    height: 16px;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    vertical-align: middle;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.beli-mudah {
+    width: 1728px;
+    height: 64px;
+    max-width: 1728px;
+    padding-left: 224px;
+    padding-right: 224px;
+    gap: 16px;
+    position: relative;
+}
+
+.logo-b {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #1A73E8;
+    position: absolute;
+    top: 13px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.beli-mudah-text {
+    width: 80px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    left: 258px;
+}
+
+.beli-mudah-p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #111827;
+}
+
+.container-form {
+    width: 576px;
+    height: 42px;
+    display: inline-block;
+    position: absolute;
+    top: 11px;
+    left: 368px;
+}
+
+.form {
+    width: 576px;
+    height: 42px;
+    border-radius: 12px;
+    border: 1px solid #0000001A;
+    background-color: #F3F4F6;
+    position: relative;
+}
+
+.input-form {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-right: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #111827;
+}
+
+.input-form::placeholder {
+    color: #9CA3AF;
+    font-weight: 400;
+}
+
+.button-form {
+    width: 44px;
+    height: 36px;
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    text-align: center;
+}
+
+.search-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.menu-container {
+    width: 240px;
+    height: 40px;
+    position: absolute;
+    top: 12px;
+    left: 960px;
+}
+
+.bell-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bell-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.profile {
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    line-height: 40px;
+    text-align: left;
+    margin-right: 0;
+}
+
+.profile-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.name-text-container {
+    display: inline-block;
+    vertical-align: middle;
+    width: 55px;
+    height: 40px;
+}
+
+.name-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;
+    color: #111827;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.love-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0;
+}
+
+.love-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.cart-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0;
+}
+
+.cart-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+nav {
+    width: 1728px;
+    height: 40px;
+    border-top: 1px solid #0000001A;
+    text-align: center;
+}
+
+.navbar-container {
+    display: inline-block;
+    width: 1280px;
+    text-align: left;
+    padding: 0 16px;
+}
+
+.category-container {
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    line-height: 40px;
+}
+
+.humberger-icon,
+.arrow-icon {
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.category-text-container {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.category-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #111827;
+}
+
+.electronic-container {
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 35px;
+}
+
+.electronic-icon-container {
+    width: 14px;
+    height: 20px;
+    display: inline-block;
+}
+
+.electronic-icon-span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.electronic-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    vertical-align: middle;
+    display: inline-block;
+    color: #6B7280;
+}
+
+.electronic-text-container {
+    display: inline-block;
+    margin-left: 3px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-container {
+    padding: 32px 16px; 
+    width: 1152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.step-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-pengiriman {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.alamat-pengiriman {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0000001A;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    gap: 24px;
+    width: 736px;
+}
+
+.input-pengiriman {
+    border: 1px solid #0000001A;
+    padding: 12px 16px;
+    background-color: #F3F4F6;
+    border-radius: 12px;
+    color: black;
+    width: 100%;
+}
+
+.input-pengiriman {
+    border: 1px solid #0000001A;
+    padding: 12px 16px;
+    background-color: #F3F4F6;
+    border-radius: 12px;
+    color: black;
+    width: 100%;
+}
+
+.form-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.pilihan-pengiriman {
+    background-color: #EFF6FF;
+    width: 100%;
+    border: 2px solid #1A73E8;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pilihan-pengiriman-2 {
+    background-color: transparent;
+    width: 100%;
+    border: 2px solid #0000001A;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label-pengiriman {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.pengiriman-button {
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #1A73E8;
+    padding: 14px 0;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    border: none;
+}
+
+.ringkasan-pesanan-container {
+    min-width: 352px;
+    border: 1px solid #0000001A;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+    max-height: min-content;
+}
+
+.subtotal-container {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #0000001A;
+    padding-top: 12px;
+    gap: 16px;
+}
+
+footer {
+    width: 1728px;
+    height: 492px;
+    background-color: #111827;
+    margin-top: px;
+}
+
+.footer-header {
+    background: transparent;
+    height: 105px;
+    border-bottom: 1px solid #364153;
+    padding-right: 224px;
+    padding-left: 224px;
+    position: relative;
+}
+
+.list-footer-header {
+    width: 1280px;
+    height: 104px;
+    max-width: 1280px;
+    vertical-align: middle;
+}
+
+.item-footer-header {
+    width: 294px;
+    min-height: 40px;
+    margin-left: 16px;
+    display: inline-block;
+    position: relative;
+    top: 32px;
+}
+
+.image-round {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #1A73E833;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    position: relative;
+}
+
+.logo-char {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 18px;
+}
+
+.description-footer-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title-description-footer {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    height: 20px;
+}
+
+.description-description-footer {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #99A1AF;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.middle-footer {
+    width: 1280px;
+    height: 338px;
+    max-width: 1280px;
+    position: relative;
+    left: 224px;
+}
+
+.box-info-1,
+.box-info-2,
+.box-info-3,
+.box-info-4 {
+    width: 288px;
+    height: 242px;
+    display: inline-block;
+    position: absolute;
+    top: 48px;
+}
+
+.box-info-1 {
+    left: 16px;
+}
+
+.box-info-2 {
+    left: 336px;
+    padding-bottom: 58px;
+}
+
+.box-info-3 {
+    left: 656px;
+    padding-bottom: 58px;
+}
+
+.box-info-4 {
+    left: 976px;
+}
+
+.logo-b-footer {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #1A73E8;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.logo-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.beli-mudah-text-footer {
+    width: 80px;
+    height: 24px;
+    display: inline-block;
+}
+
+.beli-mudah-p-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.keterangan {
+    width: 288px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: justify;
+    color: #99A1AF;
+    margin-top: 15px;
+}
+
+.social-media {
+    height: 32.7px;
+    padding-top: 0.7px;
+    margin-top: 15px;
+}
+
+.social-media-round {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    background-color: #364153;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    position: relative;
+}
+
+.social-media-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 14px;
+    height: 14px;
+}
+
+.judul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.list-isi {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    color: #99A1AF;
+    margin-top: 18px;
+}
+
+.list-isi-lain {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    color: #99A1AF;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 30px);
+}
+
+.punya-sudirman {
+    width: 15px;
+    height: 17px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container-1 {
+    margin-top: 18px;
+}
+
+.form-footer {
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #1E2939;
+    width: 288px;
+    height: 82px;
+    margin-top: 20px;
+}
+
+.form-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.footer-input {
+    width: 168px;
+    height: 34px;
+    border: 1px #4A5565 solid;
+    border-radius: 6px;
+    background-color: #364153;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.footer-button {
+    width: 88px;
+    height: 34px;
+    border: none;
+    border-radius: 6px;
+    padding-top: 8.75px;
+    padding-bottom: 9.25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #1A73E8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.bottom-footer {
+    width: 1728px;
+    height: 49px;
+    border-top: 1px #364153 solid;
+    padding-left: 224px;
+    padding-right: 224px;
+}
+
+.bottom-footer-container {
+    width: 1280px;
+    height: 48px;
+    max-width: 1280px;
+    padding: 16px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    color: #6A7282;
+}
+
+.bottom-footer-container-left {
+    position: absolute;
+    left: 16px;
+}
+
+.bottom-footer-container-right {
+    position: absolute;
+    right: 16px;
+}
+
+.bottom-footer-container-right-1 {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.chat-bot {
+    width: 56px;
+    height: 56px;
+    position: fixed;
+    top: 737px;
+    left: 1648px;
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 50%;
+}
+
+.chat-img {
+    width: 24px;
+    height: 24px;
+}
