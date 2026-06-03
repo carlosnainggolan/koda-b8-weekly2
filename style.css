@@ -1137,3 +1137,24 @@ footer {
     display: flex;
     gap: 12px;
 }
+
+.konfirmasi-pesanan {
+    background-color: #E5E7EB4D;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    gap: 4px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.blue-description {
+    display: flex;
+    gap: 12px;
+    border: 1px solid #DBEAFE;
+    background-color: #EFF6FF;
+    border-radius: 12px;
+    width: 100%;
+    padding: 16px;
+    align-items: flex-start;
+}
