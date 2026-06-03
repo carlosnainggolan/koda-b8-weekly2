@@ -1249,3 +1249,96 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+.myorder-main-container {
+    padding: 32px 16px;
+    width: 1120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.profile-container {
+    width: 25%;
+    color: #111827;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.pesanan-saya-container {
+    width: 75%;
+    color: #111827;
+    display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+
+.profile-container-top {
+    background-color: #FFFFFF;
+    border: 1px solid #0000001A;
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.profile-container-top button {
+    width: 100%;
+    padding: 14px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6B7280;
+    border: none;
+    background-color: transparent;
+}
+
+.list-pesanan-container {
+    background-color: #FFFFFF;
+    border: 1px solid #0000001A;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.top-list-pesanan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-list-pesanan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #0000001A;
+    padding-top: 12px;
+}
+
+.product-pesanan-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.button-for-list {
+    display: flex;
+    gap: 8px;
+}
+
+.button-for-list button {
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 8px;
+}
