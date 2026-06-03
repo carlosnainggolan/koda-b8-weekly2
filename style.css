@@ -17,11 +17,27 @@ body {
     flex-direction: row;
 }
 
+/* Auth login */
 .img-container {
     width: 50%;
     background-image:
             linear-gradient(rgba(26, 115, 232, 0.7), rgba(25, 60, 184, 0.7)),
-            url('assets/shop.jpg');
+            url('assets/shopping\ bag.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px;
+    min-height: 817px;
+}
+
+.img-container-2 {
+    width: 40%;
+    background-image:
+        linear-gradient(rgba(26, 115, 232, 0.7), rgba(25, 60, 184, 0.7)),
+        url('assets/shopping\ bag.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,12 +92,13 @@ body {
     flex-direction: column;
 }
 
-.bottom-authlogin {
+.bottom-auth-login {
     font-size: 12px;
     font-weight: 400;
     color: #FFFFFF66;
 }
 
+/* Auth login */
 .login-container {
     display: flex;
     align-items: center;
@@ -90,11 +107,28 @@ body {
     width: 50%;
 }
 
+/* Register */
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 70%;
+}
+
 .login-control {
     max-width: 448px;
     display: flex;
     flex-direction: column;
     gap: 32px;
+}
+
+/* Register control */
+.register-control {
+    max-width: 448px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
 }
 
 .login-button {
@@ -154,6 +188,19 @@ form label {
 
 .masuk-button {
     background-color: #1A73E8;
+    width: 100%;
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+.register-button {
+    background-color: #F97316;
     width: 100%;
     padding: 14px 0;
     display: flex;
