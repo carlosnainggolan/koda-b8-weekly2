@@ -1342,3 +1342,202 @@ footer {
     font-weight: 400;
     border-radius: 8px;
 }
+
+.flash-sale-product {
+    width: 1248px;
+    height: 419.25;
+    margin-top: 20px;
+}
+
+.product-card {
+    width: 300px;
+    height: 420px;
+    border: 1px #0000001A solid;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.product-card-1 {
+    width: 300px;
+    height: 420px;
+    border: 1px #0000001A solid;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+}
+
+.headphone-img {
+    width: 298px;
+    height: 298px;
+    border-top-left-radius:12px ;
+    border-top-right-radius: 12px;
+}
+
+.discount-text-red {
+    width: 45px;
+    height: 24px;
+    border: none;
+    border-radius: 16777200px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #DC2626;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+}
+
+.love-top {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 16777200px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-to-cart {
+    width: 100%;
+    border: none;
+    background-color: #F97316;
+    position: absolute;
+    top: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 48.6px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.discount-text-blue {
+    width: 45px;
+    height: 24px;
+    border: none;
+    border-radius: 16777200px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #1A73E8;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+}
+
+.product-description {
+    width: 298px;
+    height: 120px;
+    padding: 12px;
+    gap: 4px;
+}
+
+.company {
+    width: 274px;
+    height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    vertical-align: middle;
+    color: #6B7280;
+}
+
+.product-name {
+    width: 274px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19.25px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    vertical-align: middle;
+    color: #111827;
+}
+
+.rating {
+    width: 274px;
+    height: 20px;
+    gap: 4px;
+    display: inline-block;
+}
+
+.star-img {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+
+.star-rating {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.rating-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    vertical-align: middle;
+    color: #6B7280;
+    display: inline-block;
+}
+
+.price-now {
+    height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #1A73E8;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.price-before {
+    height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #6B7280;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: line-through;
+}
